@@ -1,0 +1,57 @@
+es:
+  lita:
+    handlers:
+      fridays:
+        will_consider_presenter: "se agregó a %{subject} a la lista de presentadores"
+        presenter_already_considered: "%{subject} ya está en la lista"
+        presenter_removed: "se eliminó de la lista a %{subject}"
+        presenter_already_removed: "%{subject} no está en la lista"
+        will_present: "%{subject} va a presentar el próximo Viernes!"
+        you_will_present: "super! tu presentarás el próximo Viernes!"
+        current_presenter: "este Viernes presentará %{subject}"
+        no_current_presenter: "todavía no sé quién presenta este Viernes"
+        will_consider_topic: "agregué tu propuesta a la lista"
+        considered_topics: "La gente ha propuesto:\n"
+        no_considered_topics: "No hay propuestas aún :("
+        topic_removed: "eliminé la sugerencia"
+        non_existant_topc: "no existe una sugerencia con ese índice"
+        topics_reset: "eliminé todas las sugerencias"
+        announce_presenter: "%{subject} presentará el próximo Viernes!"
+        set_current_topic: "fijé el tema de la próxima presentación"
+        cannot_set_current_topic: "el tema lo eliges cuando presentas amiguito"
+        current_topic: "el tema fijado es '%{subject}'"
+        no_current_topic: "aún no sé de qué se tratará la presentación"
+        help:
+          consider_presenter:
+            usage: "considera a <usuario> para las presentaciones"
+            description: "Agrega un presentador por su username"
+          remove_presenter:
+            usage: "ya no consideres a <usuario> para las presentaciones"
+            description: "Elimina un presentador por su username"
+          will_present:
+            usage: "<usuario> va a presentar"
+            description: "Asigna un presentador por su username"
+          you_will_present:
+            usage: "yo voy a presentar"
+            description: "Te asigna como presentador"
+          current_presenter:
+            usage: "quién va a presentar"
+            description: "Responde quién va a presentar el próximo Viernes"
+          will_consider_topic:
+            usage: "propongo <tema>"
+            description: "Agrega una propuesta de presentación a las sugerencias"
+          considered_topics:
+            usage: "qué han propuesto"
+            description: "Responde con la lista de sugerencias"
+          remove_topic:
+            usage: "ya no consideres el tema <indice_de_la_sugerencia>"
+            description: "Elimina una sugerencia según su índice"
+          topics_reset:
+            usage: "elimina todas las sugerencias"
+            description: "Elimina todas las sugerencias"
+          set_current_topic:
+            usage: "presentaré sobre <tema>"
+            description: "Fija el tema de la próxima presentación"
+          current_topic:
+            usage: "sobre qué será la presentación"
+            description: "Responde con el tema de la próxima presentación"
